@@ -1,0 +1,59 @@
+const data =[
+    {
+        type:'Fire',
+        name:'Ponyta',
+        sprite:'https://www.pokepedia.fr/images/thumb/8/8f/Ponyta-RFVF.png/250px-Ponyta-RFVF.png',
+        match:[1,2]
+    },
+    {
+        type:'Water',
+        name:'Squrirtle',
+        sprite:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFUm-yBI1IpYJXHQJFfmlhH_F-x8FPjupWgQ&usqp=CAU',
+        match:[2,3]
+    },
+    {
+        type:'Grass',
+        name:'Bulbasaur',
+        sprite:'https://pm1.narvii.com/6778/329fd36057877fc1f90d1840c52baeea14e620b8v2_hq.jpg',
+        match:[3,5]
+    },
+    {
+        type:'Dragon',
+        name:'Dratini',
+        sprite:'https://img.favpng.com/4/15/5/dratini-pok-mon-yellow-dragonite-dragonair-pikachu-png-favpng-6BUf0dSVpj9B0rxd02nD1TGKs.jpg',
+        match:[4]
+    },
+    {
+        type:'Electric',
+        name:'Joltik',
+        sprite:'https://img.favpng.com/13/24/20/joltik-galvantula-bulbapedia-electric-image-png-favpng-ySfTsbuA5iMGQ3dPvdDSPeWja.jpg',
+        match:[5]
+    },
+    {
+        type:'Bug',
+        name:'Weedle',
+        sprite:'https://thumbnail.imgbin.com/25/2/12/imgbin-weedle-pokemon-black-white-pok-mon-go-kakuna-others-bPRg4g3mhuLDfPwMeVAYP1ipd_t.jpg',
+        match:[6,4]
+    },{
+        type:'Rock',
+        name:'Sudowoodo',
+        sprite:'https://www.vhv.rs/dpng/d/555-5553537_sudowoodo-hd-png-download.png',
+        match:[7,4]
+    },{
+        type:'Poison',
+        name:'Nidoran',
+        sprite:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHP7fGJUQDZtLlAZ3GqnG23v9yZgmxZP9oHw&usqp=CAU',
+        match:[8]
+    },{
+        type:'Ground',
+        name:'Phanpy',
+        sprite:'https://www.pngitem.com/pimgs/m/514-5149535_image-freeuse-stock-ground-drawing-digital-painting-cutest.png',
+        match:[9]
+
+    },{
+        type:'Flying',
+        name:''
+    }
+
+];
+export default data;
