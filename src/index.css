@@ -17,6 +17,9 @@ header {
   justify-content: space-between;
   padding: 20px 40px;
 }
+main{
+  background-image: url('https://thumbs.dreamstime.com/b/pokemon-cards-background-pile-image-74262268.jpg');
+}
 footer {
   align-items: center;
   background: #aaa;
@@ -26,11 +29,15 @@ footer {
 }
 .y-app{
   display:flex;
-  background-image: url('https://thumbs.dreamstime.com/b/pokemon-cards-background-pile-image-74262268.jpg');
   height: 100%;
+  align-items: center;
+}
+.chart-title{
+  background-color: grey;
 }
 .pokemon{
   display:flex;
+  flex-wrap:wrap;
   align-items: center;
   padding: 30px;
 }

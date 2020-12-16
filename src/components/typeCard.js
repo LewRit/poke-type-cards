@@ -52,7 +52,49 @@ const data =[
 
     },{
         type:'Flying',
-        name:''
+        name:'Emolga',
+        sprite:'https://listimg.pinclipart.com/picdir/s/220-2203049_pokemon-png-flying-clipart-butterfree-caterpie-video-pokemon.png',
+        match:[10]
+    },{
+        type:'Normal',
+        name:'Sentret',
+        sprite:'https://pokemon3d.net/wiki/images/5/5c/Sentret.png',
+        match:[11]
+    },{
+        type:'Ice',
+        name:'Glaceon',
+        sprite:'https://www.kindpng.com/picc/m/147-1478996_god-of-ice-type-pokemon-hd-png-download.png',
+        match:[12]
+    },{
+        type:'Fighting',
+        name:'Scrafty',
+        sprite:'https://www.vhv.rs/dpng/d/49-494735_fighting-pokemon-hd-png-download.png',
+        match:[13]
+    },{
+        type:'Psychic',
+        name:'Jirachi',
+        sprite:'https://www.ssbwiki.com/images/thumb/c/c3/Jirachi-Origin.png/1200px-Jirachi-Origin.png',
+        match:[14]
+    },{
+        type:'Ghost',
+        name:'Misdreavus',
+        sprite:'https://www.pngitem.com/pimgs/m/397-3979198_misdreavus-pokemon-png-transparent-png.png',
+        match:[15]
+    },{
+        type:'dark',
+        name:'Umbreon',
+        sprite:'https://archive-media-1.nyafuu.org/vp/image/1423/57/1423579071296.png',
+        match:[16]
+    },{
+        type:'Steel',
+        name:'Klink',
+        sprite:'https://cdn.bulbagarden.net/upload/thumb/e/ea/599Klink.png/1200px-599Klink.png',
+        match:[17]
+    },{
+        type:'Fairy',
+        name:'Marill',
+        sprite:'https://www.clipartkey.com/mpngs/m/25-259777_pokemon-clipart-translucent-pokemon-marill.png',
+        match:[18]
     }
 
 ];
