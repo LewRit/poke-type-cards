@@ -7,7 +7,7 @@ const data =[
     },
     {
         type:'Water',
-        name:'Squrirtle',
+        name:'Squirtle',
         sprite:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFUm-yBI1IpYJXHQJFfmlhH_F-x8FPjupWgQ&usqp=CAU',
         match:[2,3]
     },
