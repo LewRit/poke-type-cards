@@ -1,1 +1,2 @@
 export const CREATE_GAME='CREATE_GAME';
+export const SELECT_CARD='SELECT_CARD';

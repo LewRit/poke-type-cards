@@ -4,8 +4,8 @@ const Home = props =>{
             <h1 className='chart-title'>
                 Study quick before taking on the Pokecard type challenge!
             </h1>
-            <img className='typeChart' src='https://img.pokemondb.net/images/typechart.png'/>'
-            
+            <button href="https://localhost:3000/pokecard">Start Your Game</button>
+            <img className='typeChart' src='https://img.pokemondb.net/images/typechart.png' alt="type chart here"/>'
         </div>
     )
 }

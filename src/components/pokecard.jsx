@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import React from 'react'
 import {connect} from 'react-redux'
 import Card from './cards'
 import {newGame} from '../redux/actions'
@@ -18,6 +18,6 @@ const mapDispatchToProps=dispatch=>({
     newGame: ()=>dispatch(newGame())
 })
 const mapStateToProps=state=>({
-    board: state.board
+    board: state.createGame.board
 })
 export default connect(mapStateToProps, mapDispatchToProps)(Pokecard);
