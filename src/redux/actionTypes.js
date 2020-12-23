@@ -1,2 +1,5 @@
 export const CREATE_GAME='CREATE_GAME';
-export const SELECT_CARD='SELECT_CARD';
+export const SELECT_CARD_1='SELECT_CARD_1';
+export const SELECT_CARD_2='SELECT_CARD_2';
+export const RESET_SELECTION='RESET_SELECTION';
+export const REMOVE_MATCH='REMOVE_MATCH';

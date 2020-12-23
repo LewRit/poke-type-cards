@@ -18,16 +18,16 @@ const data =[
         match:[3,5]
     },
     {
-        type:'Dragon',
-        name:'Dratini',
-        sprite:'https://img.favpng.com/4/15/5/dratini-pok-mon-yellow-dragonite-dragonair-pikachu-png-favpng-6BUf0dSVpj9B0rxd02nD1TGKs.jpg',
-        match:[4]
-    },
-    {
         type:'Electric',
         name:'Joltik',
         sprite:'https://img.favpng.com/13/24/20/joltik-galvantula-bulbapedia-electric-image-png-favpng-ySfTsbuA5iMGQ3dPvdDSPeWja.jpg',
         match:[5]
+    },
+    {
+        type:'Fairy',
+        name:'Marill',
+        sprite:'https://www.clipartkey.com/mpngs/m/25-259777_pokemon-clipart-translucent-pokemon-marill.png',
+        match:[18]
     },
     {
         type:'Bug',
@@ -37,7 +37,7 @@ const data =[
     },{
         type:'Rock',
         name:'Sudowoodo',
-        sprite:'https://www.vhv.rs/dpng/d/555-5553537_sudowoodo-hd-png-download.png',
+        sprite:'https://cdn.bulbagarden.net/upload/thumb/1/1e/185Sudowoodo.png/1200px-185Sudowoodo.png',
         match:[7,4]
     },{
         type:'Poison',
@@ -81,7 +81,7 @@ const data =[
         sprite:'https://www.pngitem.com/pimgs/m/397-3979198_misdreavus-pokemon-png-transparent-png.png',
         match:[15]
     },{
-        type:'dark',
+        type:'Dark',
         name:'Umbreon',
         sprite:'https://archive-media-1.nyafuu.org/vp/image/1423/57/1423579071296.png',
         match:[16]
@@ -90,12 +90,12 @@ const data =[
         name:'Klink',
         sprite:'https://cdn.bulbagarden.net/upload/thumb/e/ea/599Klink.png/1200px-599Klink.png',
         match:[17]
-    },{
-        type:'Fairy',
-        name:'Marill',
-        sprite:'https://www.clipartkey.com/mpngs/m/25-259777_pokemon-clipart-translucent-pokemon-marill.png',
-        match:[18]
+    },
+    {
+        type:'Dragon',
+        name:'Dratini',
+        sprite:'https://img.favpng.com/4/15/5/dratini-pok-mon-yellow-dragonite-dragonair-pikachu-png-favpng-6BUf0dSVpj9B0rxd02nD1TGKs.jpg',
+        match:[4]
     }
-
 ];
 export default data;
