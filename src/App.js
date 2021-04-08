@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <header>
-      <Link to="/">Home</Link>
+      <Link to="/" className='home'>Home</Link>
         <div className="navs">
           <Link to="/pokecard">Play Pokecard</Link>
           <Link to="/about-us">About Us</Link>
@@ -22,7 +22,8 @@ function App() {
         </Switch>
       </main>
       <footer>
-        This is footer
+        <div>Copyright © PokeCards|</div>
+        <div>SITE DESIGNED WITH CREDITS TO REACT AND BOOSTRAP.</div>
       </footer>
     </div>
   );
