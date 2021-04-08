@@ -12,44 +12,53 @@ code {
     monospace;
 }
 header {
+  background-color: rgb(40, 51, 110);
   border-bottom: 1px solid blue;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
 }
-main{
+main {
   background-image: url('https://thumbs.dreamstime.com/b/pokemon-cards-background-pile-image-74262268.jpg');
 }
 footer {
   align-items: center;
   background: #aaa;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 30px 0;
 }
-.card.selected{
-  border:5px solid blue
+.card.selected {
+  border: 5px solid blue;
 }
-.card.correct{
-  border:5px solid green
+.card.correct {
+  border: 5px solid green;
 }
-.card.incorrect{
-  border:5px solid red
+.card.incorrect {
+  border: 5px solid red;
 }
-.y-app{
-  display:flex;
+.y-app {
+  display: flex;
   height: 100%;
   align-items: center;
 }
-.chart-title{
+.chart-title {
   background-color: grey;
 }
-.pokemon{
-  display:flex;
-  flex-wrap:wrap;
+.pokemon {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 30px;
 }
 .navs a {
+  color: white;
   margin-left: 16px;
+}
+.home {
+  color: white;
+}
+.gameboard {
+  color: black;
 }

@@ -52,7 +52,7 @@ const data =[
 
     },{
         type:'Flying',
-        name:'Emolga',
+        name:'Butterfree',
         sprite:'https://listimg.pinclipart.com/picdir/s/220-2203049_pokemon-png-flying-clipart-butterfree-caterpie-video-pokemon.png',
         match:[10]
     },{
